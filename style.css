@@ -1,0 +1,148 @@
+body{
+    background-color: #a4adca;
+    font-family: 'Inter';
+    padding: 0px;
+}
+
+.logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 5%;
+}
+
+.presentacion{
+    display: flex;
+
+}
+
+.text_area{
+    border: none;
+    background-color: #b5b5c4;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-transform: lowercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    align-items: center;
+    width: 90%;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 150;
+    margin-left: 250px;
+}
+
+::placeholder{color:#0A3871;}
+    .text_area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background-color: rgb(133, 150, 192);
+    background-image: url("Images/Muñeco.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #000000;
+    margin-left: 98px;
+    margin-top: 50px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    align-items: center;
+    width: 90%;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn_encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 100px;
+    height: 60px;
+    width: 328px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.btn_desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 30px;
+    width: 328px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 278px;
+    margin-top: 50px;
+    position: relative;
+    width: 300px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px; 
+}
+
+.footer{
+    background-color: darkgrey;
+    padding: 2px;
+    color: indigo;
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width:1300px){
+    .logo{
+        padding: 2%;
+        width: 15%;
+    }
+
+    .presentacion{
+        flex-direction: column;
+        margin-bottom: 13%;
+        align-self: center;
+        justify-content: center;
+    }  
+
+    .presentacion_enc{
+        width: auto;
+    }
+
+    .text_area{
+        width: auto;
+    }
+
+    .mensaje{
+        width: auto;
+    }
+   
+}

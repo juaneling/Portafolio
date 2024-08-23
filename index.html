@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-mex">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=DotGothic16&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Images/Logo.png" alt="Logo de Alura" class="logo">
+    </header>
+    <main class="presentacion">
+        <section class="presentacion_enc">
+            <div>
+                <textarea class="text_area" cols="40" rows="10" placeholder="Ingrese texto aqui"></textarea>
+                <h1 class="informacion"><img src="/Images/exclamation.png" alt="Signo de Exclamacion">No se aceptarán mayúsculas ni caracteres especiales</h6>
+            </div>
+            <div class="botones">
+                <button class="btn_encriptar" onclick="btnEncriptar();" title="Encriptar texto" placeholder="Encriptar">Encriptar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar();" title="Desencriptar texto" placeholder="Desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10" title="Mensaje encriptado" placeholder="Mensaje encriptado"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto();" title="Copiar texto" placeholder="copia de mensaje">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por: Juan Aguirre, Agosto2024</p>
+    </footer>
+    <script src="encriptacion.js"></script>
+</body>
+    
+</html>
